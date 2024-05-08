@@ -22,18 +22,18 @@ Node* create(int value) {
     return res;
 }
 
-int side(Node* node) {
+static int side(Node* node) {
     return (node->parent->child[1] == node);
 }
 
-void attach(Node* node, int side, Node* new_node) {
+static void attach(Node* node, int side, Node* new_node) {
     if (new_node) {
         new_node->parent = node;
     }
     node->child[side] = new_node;
 }
 
-void rotate(Node* node) {
+static void rotate(Node* node) {
     Node* p = node->parent;
     int i = side(node);
     if (p->parent) {
@@ -46,7 +46,7 @@ void rotate(Node* node) {
     attach(node, !i, p);
 }
 
-void splay(Node* node) {
+static void splay(Node* node) {
     while (node->parent) {
         if (node->parent && node->parent->parent) {
             if (side(node) == side(node->parent)) {
