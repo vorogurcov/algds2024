@@ -13,5 +13,7 @@ typedef struct Node {
     struct Node* parent;
 } Node;
 
+void PrintOutTree(Node* tree);
 
+Node* create(int value);
 #endif
