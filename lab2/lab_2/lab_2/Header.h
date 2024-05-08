@@ -19,5 +19,12 @@ Node* create(int value);
 
 Node* insert(Node* tree, Node* node);
 
+Node** split(Node* node);
+
+Node* find(Node* tree, int key);
+
+Node* extremum(Node* x, int max);
+
+Node* join(Node* a, Node* b);
 
 #endif

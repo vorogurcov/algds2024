@@ -80,3 +80,52 @@ Node* insert(Node* tree, Node* node) {
     return tree;
 }
 
+Node** split(Node* node) {
+    Node** res = (Node**)malloc(2 * sizeof(Node*));
+    splay(node);
+    Node* right = node->child[1];
+    if (right) {
+        right->parent = NULL;
+    }
+    node->child[1] = NULL;
+    res[0] = node;
+    res[1] = right;
+    return res;
+}
+
+
+Node* find(Node* tree, int key) {
+    Node* x = tree;
+    while (x && key != x->value) {
+        Node* next = x->child[key > x->value];
+        if (!next) {
+            splay(x);
+        }
+        x = next;
+    }
+    return x;
+}
+
+Node* extremum(Node* x, int max) {
+    if (!x) {
+        return NULL;
+    }
+    while (x->child[max]) {
+        x = x->child[max];
+    }
+    return x;
+}
+
+Node* join(Node* a, Node* b) {
+    if (!a) {
+        if (b) {
+            b->parent = NULL;
+        }
+        return b;
+    }
+    Node* mx = extremum(a, 1);
+    splay(mx);
+    attach(mx, 1, b);
+    mx->parent = NULL;
+    return mx;
+}

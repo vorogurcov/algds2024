@@ -12,5 +12,15 @@ int main() {
     tree = insert(tree, node2);
     tree = insert(tree, node3);
     PrintOutTree(tree);
+
+    if(find(tree, 1) == node3)
+        printf("\nWORKS!");
+
+    if (extremum(tree,0) == tree)
+        printf("\nWORKS!");
+
+    if (extremum(tree, 2) == node1)
+        printf("\nDOES NOT WORK!");
+
     return 0;
 }
