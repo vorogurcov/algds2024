@@ -1,5 +1,0 @@
-if(EXISTS "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/UnitTesting[1]_tests.cmake")
-  include("D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/UnitTesting[1]_tests.cmake")
-else()
-  add_test(UnitTesting_NOT_BUILT UnitTesting_NOT_BUILT)
-endif()
