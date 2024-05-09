@@ -1,5 +1,7 @@
 #include "Header.h"
 
+
+
 void PrintOutTree(Node* tree) {
     if (!tree) return;
     printf("%d (", tree->value);
@@ -128,4 +130,39 @@ Node* join(Node* a, Node* b) {
     attach(mx, 1, b);
     mx->parent = NULL;
     return mx;
+}
+
+void PrintFromNode(Node* node, char* Str) {
+    if (node) {
+        if (!node->parent) {
+            PrintTree(node, Str);
+        }
+        else {
+            PrintFromNode(node->parent, Str);
+        }
+    }
+}
+
+void PrintOutFromNode(Node* node) {
+    if (node) {
+        if (!node->parent) {
+            PrintOutTree(node);
+        }
+        else {
+            PrintOutFromNode(node->parent);
+        }
+    }
+}
+
+void PrintTree(Node* node, char* Str) {
+    char S[20];
+    if (node == NULL) return;
+    sprintf(S, "%d (", node->value);
+    strcat(Str, S);
+    PrintTree(node->child[0], Str);
+    sprintf(S, ") (");
+    strcat(Str, S);
+    PrintTree(node->child[1], Str);
+    sprintf(S, ")");
+    strcat(Str, S);
 }

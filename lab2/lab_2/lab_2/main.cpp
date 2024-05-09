@@ -1,6 +1,7 @@
 #include "Header.h";
 
-int main() {
+
+int main(int argc, char*argv[]) {
     Node* tree = create(4);
     Node* node1 = create(3);
     Node* node2 = create(2);
@@ -22,5 +23,6 @@ int main() {
     if (extremum(tree, 2) == node1)
         printf("\nDOES NOT WORK!");
 
-    return 0;
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(Lab1)
+project(Lab2)
 
 # GoogleTest requires at least C++14
 set(CMAKE_CXX_STANDARD 14)
@@ -18,7 +18,7 @@ enable_testing()
 
 add_executable(
 	UnitTesting UnitTesting.cpp
-	FuncsLib FuncsLib.cpp
+	funcs funcs.cpp
 	Header Header.h
 	main main.cpp
 )

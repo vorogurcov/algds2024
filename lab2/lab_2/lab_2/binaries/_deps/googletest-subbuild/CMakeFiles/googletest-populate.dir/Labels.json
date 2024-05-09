@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/7097cb4fa5574dec18072ad3272eb045/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/7de3a3ea30e76fdba109748fa74b961c/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/VisualStudio/ProgrammingProjects/algds2024/lab2/lab_2/lab_2/binaries/_deps/googletest-subbuild/CMakeFiles/885dbeea666b03869450f15388b3632f/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

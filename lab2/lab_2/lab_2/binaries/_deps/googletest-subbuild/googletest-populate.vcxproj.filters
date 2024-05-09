@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\885dbeea666b03869450f15388b3632f\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\7de3a3ea30e76fdba109748fa74b961c\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\7097cb4fa5574dec18072ad3272eb045\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\binaries\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EA4C4F28-42EB-3D76-A4BF-7FDEE45A85AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

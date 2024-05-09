@@ -6,6 +6,7 @@
 #include <stdio.h>;
 #include <string.h>
 #include <stdlib.h>
+#include "gtest/gtest.h"
 
 typedef struct Node {
     int value;
@@ -26,5 +27,11 @@ Node* find(Node* tree, int key);
 Node* extremum(Node* x, int max);
 
 Node* join(Node* a, Node* b);
+
+void PrintFromNode(Node* node, char* Str);
+
+void PrintOutFromNode(Node* node);
+
+void PrintTree(Node* node, char* Str);
 
 #endif

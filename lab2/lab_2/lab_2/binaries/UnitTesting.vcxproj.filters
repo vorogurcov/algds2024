@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\UnitTesting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VisualStudio\ProgrammingProjects\algds2024\lab2\lab_2\lab_2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C837774-0EF3-32D9-B814-264B2736C1A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6CB1F8EF-0FD3-3592-B99A-10B50CAE3283}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
